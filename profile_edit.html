@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/7d8b320508.js" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style_buyer_profile.css">
+  <title>Mini Project</title>
+  <link rel="icon" href="images/farmer.ico">
+  <link rel="stylesheet" href="css/edit_profile_style.css">
+</head>
+
+<body>
+  <div class="container">
+    <center>
+      <h1 class="txt">Edit Profile</h1>
+    </center>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="text-center">
+          <img src="images/farmer_profile.jpg" class="avatar rounded-circle" alt="avatar">
+          <h6 class="txt">Upload a different photo...</h6>
+          <input type="file" class="form-control">
+        </div>
+      </div>
+      <div class="col-lg-8 personal-info inf">
+        <h3 class="txt">Edit your personal info</h3>
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <div class="col-lg-8">
+              <input class="form-control" type="text" placeholder="Firstname" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-8">
+              <input class="form-control" type="text" placeholder="Lastname" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-8">
+              <input class="form-control" type="number" placeholder="Mobile number" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-8">
+              <input class="form-control" type="textarea" placeholder="Address" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-8">
+              <input class="form-control" type="email" placeholder="Email-ID" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-8">
+              <div class="ui-select">
+                <select id="user_time_zone" class="form-control">
+                  <option value="Time Zone:" selected="selected" required>Select Timezone</option>
+                  <option value="Kolkata">(GMT+5:30) Kolkata, West Bengal </option>
+                  <option value="Hawaii">(GMT-10:00) Hawaii</option>
+                  <option value="Alaska">(GMT-09:00) Alaska</option>
+                  <option value="Pacific Time (US Canada)">(GMT-08:00) Pacific Time (US Canada)</option>
+                  <option value="Arizona">(GMT-07:00) Arizona</option>
+                  <option value="Mountain Time (US Canada)">(GMT-07:00) Mountain Time (US Canada)</option>
+                  <option value="Central Time (US Canada)">(GMT-06:00) Central Time (US Canada)</option>
+                  <option value="Eastern Time (US Canada)">(GMT-05:00) Eastern Time (US Canada)</option>
+                  <option value="Indiana (East)">(GMT-05:00) Indiana (East)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-8">
+              <input class="form-control" type="text" placeholder="Username" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-8">
+              <input class="form-control" type="password" placeholder="Password" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-8">
+              <input class="form-control" type="password" placeholder="Confirm password" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-3 control-label"></label>
+            <div class="col-md-8">
+              <input type="submit" class="btn btn-success" value="Save Changes">
+              <span></span>
+              <input type="reset" class="btn btn-danger" value="Cancel">
+              <a href="index.html"><input type="button" class="btn btn-info" value="Home"></button></a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#header {
+  padding: 3% 10%;
+  background-image: url(../images/farm1.jpg);
+  font-family: 'Merienda', cursive;
+  /* background-color: #91d18b; */
+}
+
+.nav-item {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.nav-item:hover {
+  font-family: sans-serif;
+  font-size: 1.03rem;
+}
+
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.nav-item {
+  padding: 0 17px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+#about {
+  padding: 3% 12%;
+}
+
+.testimonial-text {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Merienda', cursive;
+}
+
+.testi-text {
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: 'Merienda', cursive;
+}
+
+.test-text {
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.test-image {
+  padding: 3% 6%;
+  height: 90%;
+  width: 100%;
+}
+
+.abt-img {
+  width: 75%;
+}
+
+.abt-img1 {
+  width: 35%;
+}
+
+@media only screen and (max-width: 600px) {
+  .abt-img1 {
+    display:none;
+  }
+}
+
+.abt-p {
+  /* text-align: left; */
+  text-align: justify;
+  font-style: italic;
+  font-family: 'Roboto Slab', serif;
+}
+
+.abt {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  padding: 3%;
+}
+
+#contact {
+  padding: 3% 6%;
+  color: #fff;
+  background-color: #33313b;
+}
+
+.cont-head {
+  text-align: center;
+  padding: 3% 0;
+  font-family: sans-serif;
+}
+
+.btn {
+  font-family: sans-serif;
+}
+
+#digimarket {
+  background-color: #e1ffc2;
+}
+
+.veggie {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .veggie {
+    display: none;
+  }
+}
+
+.container-fluid {
+  padding: 0;
+  font-family: 'Dancing Script', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-fluid {
+    padding: 0;
+    padding-bottom: 3%;
+    font-family: 'Dancing Script', cursive;
+  }
+}
+
+.digihead {
+  font-family: 'Dancing Script', cursive;
+  text-align: left;
+  padding: 5% 0;
+  font-size: 3rem;
+}
+
+.con-p {
+  padding-top: 10%;
+  padding: 2% 5%;
+}

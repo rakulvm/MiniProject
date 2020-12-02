@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+  }
+  #header{
+    background-image: url(farm4.jpg);
+    font-family: 'Bitter', serif;
+  }
+  .nav-item {
+    font-family: sans-serif;
+    font-size: 1rem;
+  }
+  
+  .nav-item:hover {
+    font-family: sans-serif;
+    font-size: 1.03rem;
+  }
+  
+  .navbar {
+    padding: 0 0 3.5rem;
+  }
+  
+  .nav-item {
+    padding: 0 17px;
+  }
+  
+  .container{
+    padding: 3% 5%;
+  }
+  .btn{
+    margin-bottom: 3%;
+    font-family: sans-serif;
+  }
+  .ab{
+    color: #ffffdd;
+    font-size: 1.4rem;
+    padding: 3% 5%;
+    padding: 3%;
+  }
+  .ml12 {
+    font-weight: 400;
+    font-size: 3.5em;
+    color:#fff;
+  }
+  
+  .ml12 .letter {
+    display: inline-block;
+    line-height: 1.5em;
+  }
+  .abc{
+    padding-bottom: 3% ;
+    color:#fff;
+    font-size: 2.3rem;
+  }
+  .container-fluid{
+    padding: 3% 7%;
+  }
+  #cont{
+    background-color: black;
+    color:white;
+  }
+  .img1{
+    width: 50%;
+    height: 50%;
+  }
+  .img1:hover{
+    width: 51%;
+    height: 51%;
+  }

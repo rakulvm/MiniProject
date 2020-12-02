@@ -1,0 +1,18 @@
+.jumbotron{
+    background-color:#74f164;
+    text-align: center;
+}
+.jumbotron h1{
+    color: #fff;
+}
+body{
+    background-color: #fff;
+}
+img{
+    width: 310px;
+    height: 250px;
+}
+.Newsgrid{
+    margin: 10px;
+    border: 1px solid gray; 
+}

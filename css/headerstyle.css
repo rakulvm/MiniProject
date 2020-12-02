@@ -1,0 +1,11 @@
+body{
+    background-image: url(../images/header-img.jpg);
+}
+#header1{
+  color: #fff;
+  padding: 15% 5%;
+    font-family: 'Merienda', cursive;
+}
+.abc{
+  padding: 2% 0;
+}
